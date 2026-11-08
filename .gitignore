@@ -1,0 +1,24 @@
+@'
+# Node.js dependencies
+node_modules/
+
+# Python dependencies
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build files
+dist/
+build/
+
+# IDE and OS
+.vscode/
+.DS_Store
+Thumbs.db
+'@ | Set-Content .gitignore
